@@ -1,0 +1,26 @@
+#tabs {
+    display: flex;
+    cursor: pointer;
+}
+
+#tabs > * {
+  margin-right: 1%;
+  margin-bottom: 3%;
+  border: 1px solid red;
+}
+
+#tabs > *:hover {
+  background: yellow
+}
+
+#date-picker{
+    display: block;
+}
+
+#days-of-the-week, #user-input{
+    display: none;
+}
+
+#result{
+    width: 25%;
+}
